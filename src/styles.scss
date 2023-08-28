@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,900;1,200;1,300;1,800;1,900&display=swap");
+
+$primary-font: "Poppins";
+$background: #1d222a;
+$color: rgb(255, 255, 255);
+
+$primary-cyan: #00adb5;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font;
+  font-size: 1rem;
+  background: $background;
+  color: $color;
+  min-height: 100vh;
+  line-height: 1.5;
+  padding: 0rem 7.5rem;
+}
+
+button {
+  background: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #343941;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  &.new {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    width: 14rem;
+    height: 4rem;
+  }
+
+  &:hover,
+  &:focus,
+  &.focus,
+  &.active,
+  &:active {
+    background-color: $primary-cyan;
+    border-width: 1px;
+  }
+
+  &.yellow-l {
+    background-color: $primary-cyan;
+
+    &:hover {
+      background-color: darken($primary-cyan, 10%);
+    }
+  }
+}
