@@ -1,0 +1,45 @@
+.container {
+  h1 {
+    color: var(--gray, #393e46);
+    font-size: 250px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -5.667px;
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    position: relative;
+  }
+
+  .name {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 1rem;
+
+    span {
+      width: 192px;
+      height: 7px;
+      background: #00adb5;
+    }
+    h2 {
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -1.28px;
+    }
+
+    p {
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+  .potato-shape {
+    position: absolute;
+    top: 16rem;
+    right: 9rem;
+    width: 40%;
+  }
+}
