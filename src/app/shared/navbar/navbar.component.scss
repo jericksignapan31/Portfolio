@@ -1,0 +1,40 @@
+.navbar {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 1rem 0rem;
+
+  .logo-container {
+    display: grid;
+    grid-template-columns: 0.2fr 0.3fr;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    .logo {
+      width: 80%;
+    }
+
+    .logo-name {
+      font-weight: 800;
+    }
+  }
+
+  .navigator {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    span {
+      cursor: pointer;
+    }
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
