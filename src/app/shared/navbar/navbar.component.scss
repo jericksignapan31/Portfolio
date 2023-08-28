@@ -11,7 +11,8 @@
     grid-template-columns: 0.2fr 0.3fr;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: start;
+    cursor: pointer;
 
     .logo {
       width: 80%;
@@ -31,10 +32,19 @@
 
     span {
       cursor: pointer;
+
+      &:hover {
+        font-weight: 600;
+      }
     }
   }
 
-  .btn {
-    font-size: 0.9rem;
+  .button {
+    display: flex;
+    justify-content: end;
+
+    .btn {
+      font-size: 0.9rem;
+    }
   }
 }
