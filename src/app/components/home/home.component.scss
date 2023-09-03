@@ -1,7 +1,10 @@
 .container {
-  h1 {
+  padding: 0rem 7.5rem;
+  row-gap: 1rem;
+
+  .hello {
     color: var(--gray, #393e46);
-    font-size: 250px;
+    font-size: 200px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -38,8 +41,37 @@
   }
   .potato-shape {
     position: absolute;
-    top: 16rem;
-    right: 9rem;
+    top: 14rem;
+    right: 11.5rem;
     width: 40%;
+  }
+}
+
+.credential {
+  margin-top: 2rem;
+  position: relative;
+
+  .credentials {
+    position: absolute;
+    top: 2rem;
+    left: 7rem;
+
+    h3 {
+      color: var(--gray-tint-gray-tint-2, #959da9);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.48px;
+    }
+
+    p {
+      color: var(--Light, #eee);
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: -0.48px;
+    }
   }
 }

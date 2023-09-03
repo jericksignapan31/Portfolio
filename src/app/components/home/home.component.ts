@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 potatoshape = "../../../assets/svg/potato-shape.svg"
+line = "../../../assets/svg/line-bg.svg"
 }
